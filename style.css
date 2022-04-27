@@ -6,15 +6,18 @@
 body {
   font-family: sans-serif;
   background-color: black;
+   
+  
 }
 
 .landing{
-  height: 657px;
+  height: 100vh;
   width: 100%;
-  background-image: url(/assets/bg3.jpg);
-  background-position: center;
-  background-size: cover;
+  background: url(/assets/CosmoverseConference-Web.png);
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 nav {
@@ -112,131 +115,35 @@ nav {
 
 .header-hero{
   display: flex;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0);
-  box-shadow: none;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-    margin-top: 1rem;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    padding-top: 11rem;
+
 }
 
 .hero-btn{
-  background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    box-shadow: none;
-    
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: .7rem;
+  text-transform: uppercase;
+  transition: all .5s ease;
 }
 
-.btn-large {
-  padding: 14px 28px;
-}
-
-.btn{
-  -webkit-user-select: "none";
-    user-select: "none";
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    line-height: 1.5;
-    transition: all 0.5s ease;
-    display: inline-block;
-    width: auto;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    font-weight: 900;
-    cursor: pointer;
-    color: white;
-    
-}
-
-.btn:hover{
+.hero-btn:hover{
   color: #965de1;
   background-color: white;
   transform: scale(1.1);
 }
 
-.caps{
-  text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.84em;
-}
-
-.learnmore{
-  padding: 50px 0;
-    text-align: center;
-}
-
-.learnmore-wrapper{
-  max-width: 1180px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
-
-.grid{
-  margin: 0;
-    padding: 0;
-    margin-left: -30px;
-    text-align: center;
-}
-
-.grid-item{
-  position: relative;
-  float: left;
-    padding-left: 30px;
-    width: 66.66667%;
-    left: 16.66667%;
-    padding-left: 20px;
-}
-
-.learn-img{
-  max-width: 200px;
-    margin: 0 auto 30px;
-}
-
-.learn-img img{
-  display: block;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-}
 
 
 
-.learntext p{
-  font-size: 1.05rem;
-    font-weight: 400;
-    line-height: 1.5;
-  margin: 20px auto;
-  color: #965de1;
-}
 
-.learntext a{
-    color: #fff;
-    border: 1px solid #965de1 !important;
-    box-shadow: none;
-    padding: 14px 28px !important;
-    appearance: none;
-    line-height: 1.5;
-    transition: all 0.15s ease;
-    display: inline-block;
-    width: auto;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    border: 0;
-    border-radius: 0px;
-    font-weight: 700;
-    cursor: pointer;
-    color: #965de1;
-}
+
 
 @media screen and (max-width: 768px) {
   .line {
@@ -305,9 +212,15 @@ nav {
     margin-top: 3rem;
   }
 
-  .logo-wrapper{
-    margin: 0;
+
+  .landing{
+    margin: 0 auto;
+    background:url(/assets/CosmoverseConference-Mobile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
 
 
 
