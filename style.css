@@ -11,13 +11,13 @@ body {
 }
 
 .landing{
-  height: 100vh;
-  width: 100%;
   background: url(/assets/CosmoverseConference-Web.png);
-  background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 3px auto 0;
+  
+    
 }
 
 nav {
@@ -212,17 +212,17 @@ nav {
     margin-top: 3rem;
   }
 
-
   .landing{
-    margin: 0 auto;
-    background:url(/assets/CosmoverseConference-Mobile.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/CosmoverseConference-Mobile.png);
+  }
+
+  
   }
 
 
 
 
+
+
   
-}
+
